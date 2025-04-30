@@ -1,0 +1,26 @@
+📊 Data Handling & Manipulation
+pandas – For data manipulation and analysis
+
+numpy – For numerical operations
+
+📈 Data Visualization
+matplotlib – For basic plotting
+
+seaborn – For statistical visualizations
+
+plotly – For interactive charts and plots
+
+🌐 Web Scraping
+selenium – To scrape IMDb data using browser automation
+
+webdriver_manager – To automatically manage ChromeDriver
+
+🛠️ Backend & Database
+pymysql – To connect Python to MySQL database
+
+sqlalchemy – For SQL database ORM and connection management
+
+🖥️ Frontend / Dashboard
+streamlit – To build the interactive web dashboard
+
+streamlit-option-menu – For navigation menu in Streamlit
