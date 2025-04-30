@@ -1,5 +1,4 @@
 
-                          ![image](https://github.com/user-attachments/assets/8419c5c5-1d44-4275-b278-7d9883ce18ed)
 
 🙋‍♀️** About the Author**
 Saranya
