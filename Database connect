@@ -1,0 +1,25 @@
+** Used Mysql for connecting the database**
+import mysql.connector
+
+params = {
+    "host": "gateway01.us-west-2.prod.aws.tidbcloud.com",
+    "user": "4TMDeET5hb2Bj8r.root",
+    "password": "5rkxQxG1OohjStR2",
+    "port": 4000,
+    "database": "test",
+    "ssl_ca": "C:/Users/HP/ca.pem",  # Update the path if necessary
+    "connection_timeout": 10
+}
+
+try:
+    print("Trying to connect with MySQL…")
+    conn = mysql.connector.connect(**params)
+    print("✅ Connected!")
+    conn.close()
+except mysql.connector.Error as err:
+    print("❌ MySQL connection failed:")
+    print(f"Error Code: {err.errno}")
+    print(f"Error Message: {err.msg}")
+except Exception as e:
+    print("❌ General exception raised:")
+    print(str(e))
